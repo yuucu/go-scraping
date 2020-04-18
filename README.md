@@ -8,5 +8,3 @@ to find "nintendo switch"
 ```
 # docker-compose up
 ```
-
-access to `localhost:3001` 

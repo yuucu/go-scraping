@@ -1,13 +1,11 @@
 version: '3'
 
 services:
-  api:
+  app:
     build:
       context: .
-      dockerfile: docker/api/Dockerfile
+      dockerfile: docker/go/Dockerfile
     volumes:
-      - ./src/api:/go/src/api
-    ports:
-      - 3001:3001
+      - ./src:/go/src
     tty:
       true
